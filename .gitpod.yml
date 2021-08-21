@@ -3,15 +3,23 @@ tasks:
     init: |
       # git clone https://github.com/fkubota/timeline
       # cd timeline
+      # 上は間違った始め方 with GitPod
+
+      # 正しくは、clone元をGitPodで開ける -> リモートリポジトリを自分の新規リポジトリへ変更 -> 必要に応じて.gitpod.ymlを設置
+      # 具体的には下記
+      # gitpod.io/#https://github.com/fkubota/timeline
+      # git remote -v
+      # git remote set-url https://github.com/eritsi/timeline-test2
+
       # python3 insert_twitter_card.py
       # error : sh: 1: vue-cli-service: not found
       # patch : https://ysko909.github.io/posts/fix-vue-cli-service-command-not-found-error/
-      # rm -rf node_modules package-lock.json
-      # npm install
+      rm -rf node_modules package-lock.json
+      npm install
       npm run serve
       # npm run build
       # npm run lint
 # Ports to expose on workspace startup
-# ports:
-#   - port: 8087
-#     onOpen: open-preview
+ports:
+  - port: 8080
+    onOpen: open-preview

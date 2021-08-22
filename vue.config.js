@@ -18,4 +18,8 @@ module.exports = {
       template: 'public/index.html'
     }
   },
+  devServer: {
+    host: '0.0.0.0',
+    disableHostCheck: true
+  }
 }

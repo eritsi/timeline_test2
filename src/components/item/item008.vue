@@ -1,24 +1,26 @@
 <template>
     <v-hover>
-    <v-timeline-item color="#e4e2e2ff" small 
+        <v-timeline-item icon="mdi-RacingHelmet" color='#208ea3'
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2019/01</strong>
+                    <strong class='contents-title'>2003/09</strong>
                 </v-col>
                 <v-col>
-                    <strong class='contents-title'>量子コンピュータの勉強を開始</strong>
+                    <strong class='contents-title'>第1回 全日本 学生フォーミュラ大会 総合3位</strong>
                     <div class="text-caption">
-                        書籍: 量子情報科学入門 <br>
-
-                    connpassで開催されていた勉強会に参加
+                         <div class='contents-text'>
+                            仲間達と、何もないところから車を作る<br>
+                            サスペンション、制御担当。<br>
+                            総合3位の報奨として第37回東京モーターショーに車を展示。そこで人生最初の上司と出会う。
+                        </div>
                     </div>
                     <v-btn
                             text
                             style="color: #208ea3"
                             @click="reveal = true"
-                            href="https://liberal-arts-for-tech.connpass.com/event/113694/"
+                            href="https://www.jsae.or.jp/formula/jp/1st/result.html"
                             >
                             Learn More
                     </v-btn>

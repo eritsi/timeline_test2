@@ -1,16 +1,17 @@
 <template>
     <v-hover>
-    <v-timeline-item color="#e4e2e2ff" small 
+        <v-timeline-item icon="mdi-rocket" color='#208ea3'
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>1993/07/13</strong>
+                    <strong class='contents-title'>1994/10</strong>
                 </v-col>
                 <v-col>
-                    <strong class='contents-title'>沖縄で生まれる</strong>
+                    <strong class='contents-title'>アポロ13を鑑賞</strong>
                     <div class="text-caption">
-                        1ヶ月ぐらい早く生まれたけど元気だったからヨシだったらしい
+                        ロケットを打ち上げる人に憧れる。<br>
+                        3回見ても宇宙飛行士役の役者の顔と名前が覚えられなかった。
                     </div>
                 </v-col>
             </v-row>

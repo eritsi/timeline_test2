@@ -5,12 +5,12 @@
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2018/12</strong>
+                    <strong class='contents-title'>2007/11</strong>
                 </v-col>
                 <v-col>
-                    <strong class='contents-title'>Linux デビュー</strong>
+                    <strong class='contents-title'>Renault s.a.s.へ転籍(CDI、本国正社員化)に伴い、渡仏</strong>
                     <div class="text-caption">
-                        黒い画面怖い。
+                        Boulogne-Billancourtで2016/7まで9年を過ごす。
                     </div>
                 </v-col>
             </v-row>

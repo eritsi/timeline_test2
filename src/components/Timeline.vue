@@ -1,7 +1,8 @@
 <template>
     <v-app>
     <v-app-bar color="#208ea3" dark app class='title'>
-      <v-toolbar-title justify='center'>fkubota's Timeline</v-toolbar-title>
+      <v-toolbar-title justify='center'>eritsi's Timeline</v-toolbar-title>
+      <!-- アイコンがないのでしばらく割愛
       <v-img 
            src='./../images/icon.png'
            max-height="50"
@@ -9,7 +10,9 @@
            contain
         >
       </v-img>
+      -->
       <v-spacer></v-spacer>
+      <!-- portfolio, bookshelf がないのでしばらく割愛
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
               <v-btn icon href='https://fkubota.github.io/portfolio/' v-bind="attrs" v-on="on">
@@ -34,14 +37,16 @@
           </template>
           <span>twitter</span>
       </v-tooltip>
+      -->
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
-              <v-btn icon href='https://github.com/fkubota' v-bind="attrs" v-on="on">
+              <v-btn icon href='https://github.com/eritsi' v-bind="attrs" v-on="on">
                   <v-icon>mdi-github</v-icon>
               </v-btn>
           </template>
           <span>GitHub</span>
       </v-tooltip>
+      <!-- しばらく割愛
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
               <v-btn icon href='https://www.kaggle.com/fkubota' v-bind="attrs" v-on="on">
@@ -58,9 +63,10 @@
           </template>
           <span>Speaker Deck</span>
       </v-tooltip>
+      -->
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
-              <v-btn icon href='https://github.com/fkubota/timeline' v-bind="attrs" v-on="on">
+              <v-btn icon href='https://github.com/eritsi/timeline-test2' v-bind="attrs" v-on="on">
                   <v-icon>mdi-code-tags</v-icon>
               </v-btn>
           </template>
@@ -71,15 +77,14 @@
     <v-container>
     <v-timeline align-top dense class="mx-auto" >
 
-            <item011/>
             <item007/>
-            <item008/>
-            <item006/>
             <item005/>
-            <item004/>
+            <item006/>
             <item003/>
-            <item002/>
             <item001/>
+            <item008/>
+            <item002/>
+            <item004/>
             <item009/>
     </v-timeline>
 </v-container>
@@ -97,7 +102,6 @@
     import item007 from './item/item007';
     import item008 from './item/item008';
     import item009 from './item/item009';
-    import item011 from './item/item011';
 
     export default {
             name: 'App',
@@ -111,7 +115,6 @@
                     item007,
                     item008,
                     item009,
-                    item011,
                 },
         };
 </script>

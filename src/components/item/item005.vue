@@ -1,6 +1,6 @@
 <template>
     <v-hover>
-        <v-timeline-item icon="mdi-RacingHelmet" color='#208ea3'
+        <v-timeline-item icon="mdi-Racing-Helmet" color='#208ea3'
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">

@@ -1,6 +1,6 @@
 <template>
     <v-hover>
-    <v-timeline-item color="#e4e2e2ff" small 
+    <v-timeline-item  color='#208ea3' small 
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">

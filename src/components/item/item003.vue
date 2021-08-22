@@ -1,6 +1,6 @@
 <template>
     <v-hover>
-        <v-timeline-item icon="mdi-RacingHelmet" color='#208ea3'
+        <v-timeline-item icon="mdi-briefcase" color='#208ea3'
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
@@ -11,8 +11,9 @@
                     <h2 class='contents-title'>ルノー・アジアパシフィックへ入社</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
-                            麹町のエンジニアオフィス(フランス人4名のみ)に配属され、サスペンションエンジニアとしてキャリアスタート。<br>
-                            4月~7月、フランスはLe MansでCATIA V4の研修を受ける。<br>
+                            麹町のエンジニアオフィス(他はフランス人4名のみ)に配属される。<br>
+                            サスペンションエンジニアとしてキャリアスタート。<br>
+                            2004年4月~7月、2005年4月~7月、2006年8月~9月、フランスはLe Mansで就業する。<br>
                         </div>
                     </div>
                 </v-col>

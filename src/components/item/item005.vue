@@ -1,11 +1,11 @@
 <template>
     <v-hover>
-        <v-timeline-item icon="mdi-Racing-Helmet" color='#208ea3'
+        <v-timeline-item icon="mdi-racing-helmet" color='#208ea3'
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2011/7</strong>
+                    <strong class='contents-title'>2011/07</strong>
                 </v-col>
                 <v-col>
                     <h2 class='contents-title'>Renault Sport F1 へ出向</h2>

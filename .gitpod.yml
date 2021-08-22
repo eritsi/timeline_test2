@@ -17,8 +17,12 @@ tasks:
       rm -rf node_modules package-lock.json
       npm install
       npm run serve
+      
+  - name: npm run
+    init: |
       # npm run build
-      # npm run lint
+    openMode: split-right      
+
 # Ports to expose on workspace startup
 ports:
   - port: 8080
